@@ -1,0 +1,15 @@
+Alice Smith
+Email: alice.smith@example.com
+Phone: (555) 019-2834
+
+PROFESSIONAL EXPERIENCE:
+Senior Software Engineer | July 2023 - Present
+- Built and maintained scalable backend APIs using Python and FastAPI
+- Integrated PostgreSQL database layer for candidate records management
+- Packaged applications in Docker containers and deployed onto AWS ECS cluster
+
+TECHNICAL SKILLS:
+Python, FastAPI, SQL, Docker, AWS, Git, Web Services
+
+EDUCATION:
+Bachelor of Technology in Computer Science | State University, 2021

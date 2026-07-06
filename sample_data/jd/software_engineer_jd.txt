@@ -1,0 +1,4 @@
+JOB TITLE: Senior Python Software Engineer
+TECH REQS: Python, FastAPI, SQL, AWS, Docker
+DESCRIPTION:
+We are looking for a Senior Python Software Engineer to build scalable backend services. You should have 3+ years of experience with Python. Experience building REST APIs using FastAPI is required. You should be familiar with SQL databases (PostgreSQL/MySQL) and deploy applications in AWS using Docker.
