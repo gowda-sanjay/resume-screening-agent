@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Project specific
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/output/*
+!backend/output/.gitkeep
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

@@ -1,0 +1,11 @@
+{
+  "name": "resume-screening-agent",
+  "version": "1.0.0",
+  "description": "Rooman AI Agent Challenge - Resume Screening Agent",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:frontend": "cd frontend && npm install",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "private": true
+}
