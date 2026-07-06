@@ -26,3 +26,6 @@ frontend/.cache/
 *.njsproj
 *.sln
 *.swp
+
+# Local Netlify folder
+.netlify

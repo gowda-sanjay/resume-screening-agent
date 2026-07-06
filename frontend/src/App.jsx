@@ -1,7 +1,24 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './App.css'
 
-const API_BASE_URL = 'http://127.0.0.1:8000'
+// Get API base URL from environment or detect from browser
+const getAPIBaseURL = () => {
+  // First, try environment variable (set during Netlify build)
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return import.meta.env.VITE_API_BASE_URL
+  }
+  
+  // For local development
+  if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+    return '/api'
+  }
+  
+  // For production - construct from current domain
+  // Assumes backend is on same domain or is configured in Netlify redirects
+  return '/api'
+}
+
+const API_BASE_URL = getAPIBaseURL()
 
 /* ─────── tiny helpers ─────── */
 const fitColor = {
